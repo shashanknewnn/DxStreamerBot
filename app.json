@@ -16,7 +16,7 @@
   "repository": "https://github.com/Shashankls/DxStreamerBot",
   "success_url": "/",
   "logo": "https://telegra.ph/file/93382b91fe810ba981de8.jpg",
-  "website": "http://adarsh.eu.org",
+  "website": "http://t.me/dxziyan",
   "env": {
       "ENV": {
           "description": "Set this to True if you don't want to crash the bot",
