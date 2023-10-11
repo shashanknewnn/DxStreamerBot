@@ -32,7 +32,7 @@
       },
       "API_HASH": {
           "description": "Get this value from https://my.telegram.org"
-          "value": "8b283f2943729318995738 b5963f0bcc"
+          "value": "8b283f2943729318995738b5963f0bcc"
       },
       "BOT_TOKEN": {
           "description": "Get this value from @BotFather"
