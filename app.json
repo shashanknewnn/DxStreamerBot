@@ -24,25 +24,32 @@
       },
       "APP_NAME": {
           "description": "Copy-Paste the app name that you just typed above."
+          "value": ""
       },
       "API_ID": {
           "description": "Get this value from https://my.telegram.org"
+          "value": ""
       },
       "API_HASH": {
           "description": "Get this value from https://my.telegram.org"
+          "value": ""
       },
       "BOT_TOKEN": {
           "description": "Get this value from @BotFather"
+          "value": ""
       },
       "BIN_CHANNEL": {
           "description": "The BIN Channel ID. Read the readme for more info about this var"
+          "value": ""
           
       },
       "DATABASE_URL": {
           "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe"
+          "value": ""
       },
       "OWNER_ID": {
           "description": "Your Telegram User ID  like 1234509"
+          "value": ""
       },
       "BANNED_CHANNELS": {
           "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
@@ -56,6 +63,7 @@
       },
       "OWNER_USERNAME": {
           "description": "Enter your username without @  example  LazyDeveloper."
+          "value": ""
       },
       "SLEEP_THRESHOLD": {
           "description": "Floodwait Sleep timer. Read the readme for more info about this var",
@@ -92,6 +100,7 @@
       "FQDN": {
           "description": "Read the readme for more info about this var  **Leave Empty for heroku**",
           "required": false
+          "value": ""
       },
       "name": {
           "description": " Session Name for Bot [ Add DxStreamerBot]",
