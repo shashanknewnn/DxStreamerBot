@@ -8,9 +8,9 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = environ.get('API_ID',"11760418") 
-    API_HASH = environ.get('API_HASH',"1087bd9fc871216be0e86287e5c50ac3") 
-    BOT_TOKEN = environ.get('BOT_TOKEN',"6463692735:AAEGPGQuP4tIUwJ7FSBay8Y52wCW9MUFpU8")
+    API_ID = environ.get('API_ID',"16621664") 
+    API_HASH = environ.get('API_HASH',"8b283f2943729318995738b5963f0bcc") 
+    BOT_TOKEN = environ.get('BOT_TOKEN',"6481747101:AAGWlS6827hs7U6Xu8CMR9S_GSWb6MyVCPU")
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -36,6 +36,6 @@ class Var(object):
     else:
         #URL = "https://{}/".format(FQDN)
         URL = FQDN 
-    DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://Shashanklssss:shashank.ls1324@cluster0.ctzkp4x.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+    DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://Shashanklsxm:shashank.ls1324@cluster0.wltjc4b.mongodb.net/?retryWrites=true&w=majority")
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
