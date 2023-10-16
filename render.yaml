@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 -m Dxbots 
-    repo: https://github.com/DX-MODS/DxStreamerBot.git      
+    repo: https://github.com/Shashankls/DxStreamerBot.git      
     branch: main
     envVars:
       - key: BOT_TOKEN 
@@ -15,8 +15,6 @@ services:
       - key: API_HASH 
         sync: false
       - key: BIN_CHANNEL
-        sync: false
-      - key: UPDATES_CHANNEL
         sync: false
       - key: OWNER_USERNAME
         sync: false
