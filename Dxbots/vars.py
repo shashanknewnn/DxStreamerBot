@@ -10,7 +10,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = environ.get('API_ID',"16621664") 
     API_HASH = environ.get('API_HASH',"8b283f2943729318995738b5963f0bcc") 
-    BOT_TOKEN = environ.get('BOT_TOKEN',"6818106042:AAHNMl3BzDewSO3ndKolTaoN-Cpt-POAKj4")
+    BOT_TOKEN = environ.get('BOT_TOKEN',"6440774573:AAFYHzBb95L9OrjDWM-MDq4zWbNxAqoBzIk")
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
