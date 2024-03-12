@@ -23,12 +23,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [ZIYAN](https://t.me/ziyan_dx)",
+                    text="I am Made By [Rockers](https://t.me/Rockerssupport_bot)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/ziyan_dx")
+                                InlineKeyboardButton("Owner💻", url=f"https://t.me/Rockerssupport_bot")
                             ]
                         ]
                     ),
@@ -48,7 +48,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://youtube.com/@DX-MODS")
+                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/Rockerssupport_bot")
                             ]
                         ]
                     ),
