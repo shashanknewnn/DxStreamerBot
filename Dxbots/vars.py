@@ -8,9 +8,9 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = environ.get('API_ID',"16621664") 
-    API_HASH = environ.get('API_HASH',"8b283f2943729318995738b5963f0bcc") 
-    BOT_TOKEN = environ.get('BOT_TOKEN',"6440774573:AAFYHzBb95L9OrjDWM-MDq4zWbNxAqoBzIk")
+    API_ID = environ.get('API_ID',"24953797") 
+    API_HASH = environ.get('API_HASH',"f5a80bf6f55664689631266f3eb6d1ce") 
+    BOT_TOKEN = environ.get('BOT_TOKEN',"7008143481:AAEuHzuKUPo4F2x4aT89PF_8l5p0L8oBvvk")
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -21,7 +21,7 @@ class Var(object):
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "6488346050").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = environ.get('OWNER_USERNAME',"Srikanth18")
+    OWNER_USERNAME = environ.get('OWNER_USERNAME',"Shashankls")
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
