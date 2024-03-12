@@ -42,6 +42,6 @@ class Var(object):
     else:
         #URL = "https://{}/".format(FQDN)
         URL = FQDN 
-    DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://Shashanklsxm:shashank.ls1324@cluster0.wltjc4b.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://dewif73020:shashank.ls1324@cluster0.kadmxix.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1006488346050")).split())) 
