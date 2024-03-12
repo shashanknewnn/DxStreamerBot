@@ -1,3 +1,9 @@
+# Copyright (C) 2024 DX-MODS
+#Licensed under the  MIT License;
+#you may not use this file except in compliance with the License.
+#Author ZIYAN
+#if you use our codes try to donate here https://www.buymeacoffee.com/ziyankp
+
 from Dxbots.bot import DxStreamBot
 from Dxbots.vars import Var
 import logging
@@ -69,7 +75,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something went wrong</i> <b> <a href='https://t.me/LazyPrincessSupport'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something went wrong</i> <b> <a href='https://t.me/Dx_Mods_Discussion'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -117,7 +123,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/DXMODS_Support).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/Dx_Mods_Discussion).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(

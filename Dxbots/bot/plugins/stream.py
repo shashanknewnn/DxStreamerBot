@@ -1,3 +1,9 @@
+# Copyright (C) 2024 DX-MODS
+#Licensed under the  MIT License;
+#you may not use this file except in compliance with the License.
+#Author ZIYAN
+#if you use our codes try to donate here https://www.buymeacoffee.com/ziyankp
+
 import os
 import asyncio
 from asyncio import TimeoutError
@@ -6,6 +12,7 @@ from Dxbots.utils.database import Database
 from Dxbots.utils.human_readable import humanbytes
 from Dxbots.vars import Var
 from urllib.parse import quote_plus
+from pyrogram import idle
 from pyrogram import filters, Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -44,6 +51,7 @@ async def login_handler(c: Client, m: Message):
     except Exception as e:
         print(e)
 
+
 @DxStreamBot.on_message((filters.private) & (filters.document | filters.video | filters.audio | filters.photo) , group=4)
 async def private_receive_handler(c: Client, m: Message):
     if MY_PASS:
@@ -66,7 +74,7 @@ async def private_receive_handler(c: Client, m: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=m.chat.id,
-                    text="You are banned!\n\n  **Cᴏɴᴛᴀᴄᴛ Support [Support](https://t.me/DXMODS_Support) They Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
+                    text="You are banned!\n\n  **Cᴏɴᴛᴀᴄᴛ Support [Support](https://t.me/Dx_Mods_Discussion) They Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
                     
                     disable_web_page_preview=True
                 )
@@ -89,7 +97,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ Support** [Support](https://t.me/DXMODS_Support)",
+                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ Support** [Support](https://t.me/Dx_Mods_Discussion)",
                 
                 disable_web_page_preview=True)
             return

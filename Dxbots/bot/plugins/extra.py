@@ -1,3 +1,9 @@
+# Copyright (C) 2024 DX-MODS
+#Licensed under the  MIT License;
+#you may not use this file except in compliance with the License.
+#Author ZIYAN
+#if you use our codes try to donate here https://www.buymeacoffee.com/ziyankp
+
 from Dxbots.bot import DxStreamBot
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import filters
@@ -5,7 +11,6 @@ import time
 import shutil, psutil
 from utils_bot import *
 from Dxbots import StartTime
-from apscheduler.schedulers.background import BackgroundScheduler
 from requests import get 
 
 START_TEXT = """ Your Telegram DC Is : `{}`  """
@@ -18,12 +23,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [ZIYAN](https://t.me/dxziyan)",
+                    text="I am Made By [ZIYAN](https://t.me/ziyan_dx)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/dxziyan")
+                                InlineKeyboardButton("Owner💻", url=f"https://t.me/ziyan_dx")
                             ]
                         ]
                     ),
